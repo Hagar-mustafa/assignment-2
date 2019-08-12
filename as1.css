@@ -91,7 +91,7 @@ body{
     padding-bottom: 30px;
 }
 }
-@media (max-width: 768px){
+@media (max-width: 650px){
 
    .div1 ,.div2,.div3{
     background-color: black;
