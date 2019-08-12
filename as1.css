@@ -39,17 +39,18 @@ body{
      font-size: 25px;
      border: 2px solid blue;
 }
-}
-    
-#p2{
+     #p2{
     position: relative;
     top:50px;
     padding-left: 30px ;
     padding-right: 30px;
     padding-bottom: 30px;
 }
+    
 
-@media (min-width:768px) and (max-width: 991px) {
+}
+
+@media (min-width:767px) and (max-width: 991px) {
     .div1 ,.div2{
     background-color: black;
     font-size: 20px;
@@ -82,8 +83,15 @@ body{
      font-size: 25px;
      border: 2px solid blue;
 }
+    #p2{
+    position: relative;
+    top:50px;
+    padding-left: 30px ;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
-@media (max-width: 767px){
+}
+@media (max-width: 768px){
 
    .div1 ,.div2,.div3{
     background-color: black;
@@ -106,5 +114,13 @@ body{
      right: 0px;
      font-size: 25px;
      border: 2px solid blue;
+}
+    
+    #p2{
+    position: relative;
+    top:50px;
+    padding-left: 30px ;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 }
